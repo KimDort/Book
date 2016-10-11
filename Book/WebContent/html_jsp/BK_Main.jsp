@@ -9,17 +9,33 @@
 </head>
 <body>
 	<header class="menu_box">
-		<div class="head_bar">
-			<div class="login_bar"><a href="">Login</a>/<a href="">Join</a></div>
-			<div class="menu_bar">
-				<div class="logo">
-					<a href="BK_Main.jsp" target="_self"><img alt="logo" src="..//resources/BK_Logo.png" class="logo_img"></a>
-				</div>
-				<div class="menu_button"><a href="">마이페이지<br>MY PAGE</a></div>
-				<div class="menu_button"><a href="">마이페이지<br>MY PAGE</a></div>
-				<div class="menu_button"><a href="">마이페이지<br>MY PAGE</a></div>
-				<div class="menu_button"><a href="">마이페이지<br>MY PAGE</a></div>
+		<div class="logo">
+			<a href=""><img alt="" src="..//resources/BK_Logo.png" class="logo_img"></a>
+		</div>
+		<div class="login_bar">
+			<div class="login">
+			<a href="">login</a>/<a href="">join</a></div>
+		</div>
+		<div class="button_bar">
+			<div class="button_box">
+				<a href="">
+					<img alt="" src="..//resources/SearchMenuBT.png">
+				</a>
 			</div>
+			<div class="button_box">
+				<a href="">
+					<img alt="" src="..//resources/MyPageBT.png">
+				</a>
+			</div>
+			<div class="button_box">
+				<a href="">
+					<img alt="" src="..//resources/AboutBT.png">
+				</a>
+			</div>
+		</div>
+		<div class="search">
+			<img alt="" src="..//resources/infoTextIMG.png" class="searchTitle">
+			<input type="text" size="120"><input type="button" value="검색">
 		</div>
 	</header>
 </body>
