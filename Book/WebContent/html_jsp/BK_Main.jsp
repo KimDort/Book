@@ -15,7 +15,10 @@
 				<div class="logo">
 					<a href="BK_Main.jsp" target="_self"><img alt="logo" src="..//resources/BK_Logo.png" class="logo_img"></a>
 				</div>
-				<div class="menu_button">마이페이지<br>MY PAGE</div>
+				<div class="menu_button"><a href="">마이페이지<br>MY PAGE</a></div>
+				<div class="menu_button"><a href="">마이페이지<br>MY PAGE</a></div>
+				<div class="menu_button"><a href="">마이페이지<br>MY PAGE</a></div>
+				<div class="menu_button"><a href="">마이페이지<br>MY PAGE</a></div>
 			</div>
 		</div>
 	</header>
