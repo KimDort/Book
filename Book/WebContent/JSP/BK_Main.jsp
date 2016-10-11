@@ -1,12 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="./css/style.css" media="screen">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>3 Team Book Management - Main Page</title>
 </head>
 <body>
-
+	<header>
+		<div class="head_bar">test</div>
+	</header>
 </body>
 </html>
