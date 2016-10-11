@@ -35,7 +35,7 @@
 		</div>
 		<div class="search">
 			<img alt="" src="..//resources/infoTextIMG.png" class="searchTitle">
-			<input type="text" size="120"><input type="button" value="검색">
+			<input type="text" class="serarchText"><input type="button" value="검색">
 		</div>
 	</header>
 </body>
