@@ -14,7 +14,7 @@
 		</div>
 		<div class="login_bar">
 			<div class="login">
-			<a href="">login</a>/<a href="">join</a></div>
+			<a href="member/BK_Login.html">login</a>/<a href="member/BK_Join.html">join</a></div>
 		</div>
 		<div class="button_bar">
 			<div class="button_box">
