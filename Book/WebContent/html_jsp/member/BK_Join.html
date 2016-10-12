@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../../css/style.css"
-	media="screen">
+</script>
+<link rel="stylesheet" type="text/css" href="../../css/style.css" media="screen">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>3 Team Book Management - Main Page</title>
 </head>
+
 <body>
 	<header class="menu_box">
 		<div class="logo">
@@ -39,17 +40,15 @@
 	</header>
 	
 	<section>
-	<form name="joinform" action="joinPro.jsp">
+	<form name="joinform" method="post" action="../../Pro_jsp/Pro_Join.jsp">
 <fieldset style="border: 0px;">
     <legend><img src="../../resources/MemberJoinIMG.png" border=0 width="100" height="40"></legend>
-  I D &nbsp; <input type="text" name="user_id" /><br><br>
+  I D &nbsp; <input type="text" name="user_id" /> &nbsp;<img src="../../resources/OverlapCheck.png" border=0 width="5" height="20"> <br><br>
   P W &nbsp; <input type="password" name="user_pw" /><br><br>
   PW확인 &nbsp; <input type="password" name="user_pw_check" /><br><br>
     이름   &nbsp; <input type="text" name="user_name" /><br><br>
-    핸드폰 &nbsp; <input type="text" name="user_phone_numfirst" size="5"/>  &nbsp;- &nbsp;
-             <input type="text" name="user_phone_numbermiddle" size="7" /> &nbsp;- &nbsp;
-             <input type="text" name="user_phone_numberend" size="7" /> <br><br>
-    이메일  <input type="text"  name="user_address_id">  &nbsp;@ &nbsp;
+    핸드폰 &nbsp; <input type="number" name="user_phone_num" size="15"/><br><br>
+    이메일  <input type="text"  name="user_address_id">  &nbsp; @ &nbsp;
         <select name="user_address_url">
         	<option>naver.com</option>
         	<option>hanmail.net</option>
@@ -59,7 +58,7 @@
         </select>
         <br><br>
    <center>
-   <a href="javascript:document.joinform.onsubmit()"><img src="../../resources/JoinConfirmBT.png" border=0 width="80" height="15"></a> 
+   <a href="javascript:document.joinform.submit();"><img src="../../resources/JoinConfirmBT.png" border=0 width="80" height="15"></a>
    <a href="javascript:document.joinform.reset()"><img src="../../resources/UndoAllBT.png" border=0 width="80" height="15"></a> 
    </center>
 </fieldset>
