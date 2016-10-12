@@ -54,7 +54,7 @@
 	<img src="../resources/NeedsLoginIMG.png">
 </div>
 
-<div class="LoginArea">
+<div class="LoginArea"><!-- 회색창, 그 위의 공백으로 이뤄진 테이블 영역 -->
 
 
 	<table align=center>
@@ -79,14 +79,14 @@
 		<tr>
 			<td align="justify">&nbsp;&nbsp;&nbsp;&nbsp;<font
 				style="font-weight: bold; color: black;" size="3">I&nbsp;&nbsp;D&nbsp;
-			</font>&nbsp; <input type="text" size="30" /></td>
+			</font>&nbsp; <input type="text" size="30" /></td><!-- 아이디 입력 필드 -->
 			<td rowspan="2" align="left" width="130"><input type="image"
-				src="../resources/LoginBT.png">
+				src="../resources/LoginBT.png"><!-- 로그인버튼 -->
 		</tr>
 		<tr>
 			<td align=justify>&nbsp;&nbsp;&nbsp;&nbsp;<font
 				style="font-weight: bold; color: black;" size="3">P W</font>&nbsp;&nbsp;
-				<input type="text" size="30" /></td>
+				<input type="password" size="30" /></td><!-- 비밀번호 필드 -->
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
@@ -95,7 +95,7 @@
 			<td align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<a href="BK_SearchIDPW.jsp"><font style="color: gray; font-weight: bold;">ID/PW찾기</font></a>
 				&nbsp;&nbsp; <a href="BK_Join.html">
-				<font style="color: gray; font-weight: bold;">회원가입</font></a></td>
+				<font style="color: gray; font-weight: bold;">회원가입</font></a></td><!-- 회원가입 버튼-->
 		</tr>
 
 		<tr>
