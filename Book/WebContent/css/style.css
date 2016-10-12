@@ -11,7 +11,9 @@ a:hover{
 	color:#3c3c3c;
 }
 .searchText{
-	width: 80%;
+	position:static;
+	width: 60%;
+	left:0%;
 }
 .menu_box{
 	max-width: 100%;
@@ -53,28 +55,29 @@ img{
 	width: 310px;
 }
 .search{
-	width:820px;
+	width:940px;
 	position:absolute;
-	left:25%;
-	top:180px;
+	left:27%;
+	top:170px;
+}
+.search2{
+	width:750px;
+	position:absolute;
+	left:0%;
+}
+.search3{
+	width:550px;
+	position:absolute;
+	left:42%;
 }
 .searchTitle{
 	width: 100px;
 	float: left;
 }
-
-/*로그인 페이지의 로그인 입력부, 버튼영역*/
-.LoginArea{
-	position : absolute;
-	left:30%;
-	top:330px;
+.searchTitle{
+	width: 100px;
+	float: left;
 }
-.NeedsLoginIMG{
-	position : absolute;
-	left:15%;	
-	top:280px;
-}
-/*로그인페이지 스타일 끝*/
 
 
 .BannerIMG{
@@ -83,3 +86,16 @@ img{
 	max-width:100%;
 	height: 96px;
 }
+/*로그인 페이지의 로그인 입력부, 버튼영역*/
+.LoginArea{
+	position : absolute;
+	left:35%;
+	top:330px;
+}
+.NeedsLoginIMG{
+	position : absolute;
+	left:25%;	
+	top:300px;
+}
+/*로그인페이지 스타일 끝*/
+
