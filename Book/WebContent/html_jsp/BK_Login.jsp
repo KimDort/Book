@@ -19,39 +19,39 @@
 	</div>
 	<div class="login_bar">
 		<div class="login">
-			<a href="">로그인</a>·<a href="">회원가입</a>
+			<a href="../member/BK_Login.jsp">로그인</a>·<a href="../member/BK_membership.jsp">회원가입</a>
 		</div>
 	</div>
 	<div class="button_bar">
 		<div class="button_box">
-			<a href=""> <img alt="" src="../../resources/SearchMenuBT.png"
+			<a href=""> <!-- 경로 입력 필요 --><img alt="" src="../../resources/SearchMenuBT.png"
 				height="60" width="230">
 			</a>
 		</div>
 		<div class="button_box">
-			<a href=""> <img alt="" src="../../resources/MyPageBT.png"
+			<a href=""><!-- 경로 입력 필요 --> <img alt="" src="../resources/MyPageBT.png"
 				height="60" width="230">
 			</a>
 		</div>
 		<div class="button_box">
-			<a href=""> <img alt="" src="../../resources/AboutBT.png"
+			<a href="../BK_About.jsp"> <img alt="" src="../resources/AboutBT.png"
 				height="60" width="230">
 			</a>
 		</div>
 	</div>
 	<div class="search">
-		<img alt="" src="../../resources/infoTextIMG.png" class="searchTitle">
+		<img alt="" src="../resources/infoTextIMG.png" class="searchTitle">
 		<div class="search2">
 			<input type="text" class="searchText">
 		</div>
 		<div class="search3">
-			<a href=""> <input type="image" src="../../resources/SearchBT.png"
+			<a href=""> <input type="image" src="../resources/SearchBT.png"
 				value="검색" height="22.5" width="52">
 			</a>
 		</div>
 	</div>
 	</header><div class="NeedsLoginIMG">
-	<img src="../../resources/NeedsLoginIMG.png">
+	<img src="../resources/NeedsLoginIMG.png">
 </div>
 
 <div class="LoginArea">
@@ -81,7 +81,7 @@
 				style="font-weight: bold; color: black;" size="3">I&nbsp;&nbsp;D&nbsp;
 			</font>&nbsp; <input type="text" size="30" /></td>
 			<td rowspan="2" align="left" width="130"><input type="image"
-				src="../../resources/LoginBT.png">
+				src="../resources/LoginBT.png">
 		</tr>
 		<tr>
 			<td align=justify>&nbsp;&nbsp;&nbsp;&nbsp;<font
@@ -108,7 +108,7 @@
 </div>
 
 <div class="BannerIMG">
-	<input type="image" src="../../resources/BannerIMG.png" width=1600
+	<input type="image" src="../resources/BannerIMG.png" width=1600
 		height=96>
 </div>
 

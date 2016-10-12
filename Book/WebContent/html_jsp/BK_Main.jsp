@@ -19,7 +19,7 @@
 	</div>
 	<div class="login_bar">
 		<div class="login">
-			<a href="member/BK_Login.jsp">로그인</a>·<a href="">회원가입</a>
+			<a href="BK_Login.jsp">로그인</a>·<a href="">회원가입</a>
 		</div>
 	</div>
 	<div class="button_bar">
@@ -31,7 +31,7 @@
 		<div class="button_box">
 			<a href=""> <img alt="" src="../resources/MyPageBT.png"
 				height="60" width="230">
-			</a>
+			</a>z
 		</div>
 		<div class="button_box">
 			<a href=""> <img alt="" src="../resources/AboutBT.png"
