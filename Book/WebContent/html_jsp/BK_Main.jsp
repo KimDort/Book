@@ -38,5 +38,8 @@
 			<input type="text" class="serarchText"><input type="button" value="검색">
 		</div>
 	</header>
+	<section>
+		
+	</section>
 </body>
 </html>
