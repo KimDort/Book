@@ -1,15 +1,23 @@
 package Main;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+
 public class MainDAO {
+	Connection con;
+	PreparedStatement pstmt;
+	ResultSet rs;
 	
-	public MainBean MainList()throws Exception{
-		MainBean mb=null;
+	public MainDAO(){
 		try {
-			mb=new MainBean();
+			Context init=new InitialContext();
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
 		}
-		return mb;
 	}
 }
