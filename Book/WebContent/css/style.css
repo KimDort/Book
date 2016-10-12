@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+body{
+	padding: 0;
+	margin: 0;
+}
+a{
+	color:#c0c0c0;
+	text-decoration: none;
+}
+a:hover{
+	color:#3c3c3c;
+}
+.searchText{
+	width: 80%;
+}
+.menu_box{
+	max-width: 100%;
+	height:230px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	
+	border-bottom:1px solid #c0c0c0;
+}
+.logo{
+	position: absolute;
+	left:40%;
+}
+.login_bar{
+	position:absolute;
+	width:920px;
+	top:60px;
+	left:20%;
+}
+.login{
+	float: right;
+}
+.logo_img{
+	width: 200px;
+}
+img{
+	width: 300px;
+}
+.button_bar{
+	position:absolute;
+	left:20%;
+	width:930px;
+	height: 40px;
+	top:90px;
+}
+.button_box{
+	float: left;
+	width: 310px;
+}
+.search{
+	width:820px;
+	position:absolute;
+	left:25%;
+	top:180px;
+}
+.searchTitle{
+	width: 100px;
+	float: left;
+}
+
+/*로그인 페이지의 로그인 입력부, 버튼영역*/
+.LoginArea{
+	position : absolute;
+	left:30%;
+	top:330px;
+}
+.NeedsLoginIMG{
+	position : absolute;
+	left:15%;	
+	top:280px;
+}
+/*로그인페이지 스타일 끝*/
+
+
+.BannerIMG{
+	position : absolute;
+	bottom:0;
+	max-width:100%;
+	height: 96px;
+}
