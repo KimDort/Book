@@ -14,12 +14,12 @@
 	<!-- 화면 기본 아이콘 -->
 	<header class="menu_box">
 	<div class="logo">
-		<a href=""><img alt="" src="../../resources/BK_Logo.png"
+		<a href="../BK_Main.jsp"><img alt="" src="../../resources/MainLogoBT.png"
 			class="logo_img"></a>
 	</div>
 	<div class="login_bar">
 		<div class="login">
-			<a href="">login</a>/<a href="">join</a>
+			<a href="">로그인</a>·<a href="">회원가입</a>
 		</div>
 	</div>
 	<div class="button_bar">
