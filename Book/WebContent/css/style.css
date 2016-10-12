@@ -1,3 +1,4 @@
+/*∏ﬁ¿Œ ±‚∫ª ∆‰¿Ã¡ˆ æ∆¿Ãƒ‹ css ¡§∫∏ Ω√¿€*/
 @CHARSET "UTF-8";
 body{
 	padding: 0;
@@ -10,14 +11,12 @@ a{
 a:hover{
 	color:#3c3c3c;
 }
-.searchText{
-	position:static;
-	width: 60%;
-	left:0%;
+.serarchText{
+	width: 80%;
 }
 .menu_box{
 	max-width: 100%;
-	height:230px;
+	height:210px;
 	margin:0;
 	padding:0;
 	text-align:center;
@@ -26,13 +25,13 @@ a:hover{
 }
 .logo{
 	position: absolute;
-	left:40%;
+	left:43%;
 }
 .login_bar{
 	position:absolute;
 	width:920px;
 	top:60px;
-	left:20%;
+	left:17%;
 }
 .login{
 	float: right;
@@ -55,47 +54,438 @@ img{
 	width: 310px;
 }
 .search{
-	width:940px;
+	width:920px;
 	position:absolute;
-	left:27%;
+	left:21%;
 	top:170px;
 }
 .search2{
-	width:750px;
+	width:920px;
 	position:absolute;
-	left:0%;
+	left:2%;
 }
 .search3{
-	width:550px;
+	width:920px;
 	position:absolute;
-	left:42%;
+	left:46%;
 }
 .searchTitle{
 	width: 100px;
 	float: left;
 }
-.searchTitle{
-	width: 100px;
-	float: left;
-}
-
-
-.BottomLogo{
-	position : absolute;
+.bottom_logo{
+	position:absolute;
 	bottom:0;
-	max-width:100%;
+	max-width: 100%;
 	height: 0px;
 }
-/*Î°úÍ∑∏Ïù∏ ÌéòÏù¥ÏßÄÏùò Î°úÍ∑∏Ïù∏ ÏûÖÎ†•Î∂Ä, Î≤ÑÌäºÏòÅÏó≠*/
-.LoginArea{
-	position : absolute;
-	left:35%;
-	top:330px;
+/*∏ﬁ¿Œ ¿ß ∆‰¿Ã¡ˆ css ¡§∫∏ ø©±‚±Ó¡ˆ*/
+
+/*BK_SearchDetail ∆‰¿Ã¡ˆ css ¡§∫∏ Ω√¿€*/
+.Detailed{
+	position:absolute;
+	left:13%;
+	top:220px;
 }
+.searchbox{
+	position:absolute;
+	left:13%;
+	right:13%;
+	width:1000;
+	height:480px;
+	top:260px;
+	border: 1px solid #c0c0c0;
+}
+.searchmanu{
+	position:absolute;
+	left:2%;
+	top:40px;
+	height:330px;
+	width:200px;
+}
+.searchBox1{
+	position:absolute;
+	top:43px;
+	left:17%;
+	right:10%;
+	width: 700px;
+	height:20px;
+}
+.searchBox2{
+	position:absolute;
+	top:106px;
+	left:17%;
+	right:10%;
+	width: 700px;
+	height:20px;
+}
+.searchBox3{
+	position:absolute;
+	top:169px;
+	left:17%;
+	right:10%;
+	width: 700px;
+	height:20px;
+}
+.searchBox4{
+	position:absolute;
+	top:232px;
+	left:17%;
+	right:10%;
+	width: 700px;
+	height:20px;
+}
+.searchBox5{
+	position:absolute;
+	top:295px;
+	left:17%;
+	right:10%;
+	width: 700px;
+	height:20px;
+}
+.searchBox6{
+	position:absolute;
+	top:358px;
+	left:17%;
+	right:10%;
+	width: 100px;
+	height:30px;
+}
+.searchbutton{
+	position:absolute;
+	top:425px;
+	left:40%;
+	width: 20%;
+	height:30px;
+}
+.searchbutton{
+	position:absolute;
+	top:425px;
+	left:43%;
+	width: 20%;
+	height:30px;
+}
+
+/*BK_SearchDetail ∆‰¿Ã¡ˆ css ¡§∫∏ ø©±‚±Ó¡ˆ*/
+
+/*BK_Mypage ∆‰¿Ã¡ˆ css ¡§∫∏ Ω√¿€*/
+.Mypage{
+	position:absolute;
+	left:20%;
+	top:220px;
+}
+.Mypagebutton{
+	position:absolute;
+	left:20.5%;
+	top:350px;
+	width:930px;
+	text-align:center;
+}
+.Mypage_box{
+	float: left;
+	width: 310px;
+}
+/*BK_Mypage ∆‰¿Ã¡ˆ css ¡§∫∏ ø©±‚±Ó¡ˆ*/
+
+/*BK_SearchResult ∆‰¿Ã¡ˆ css ¡§∫∏ Ω√¿€*/
+.searchResult_Icon{
+	position:absolute;
+	left:15%;
+	top:220px;
+}
+
+/*BK_SearchResult ∆‰¿Ã¡ˆ css ¡§∫∏ ø©±‚±Ó¡ˆ*/
+
+/*BK_membership ∆‰¿Ã¡ˆ css ¡§∫∏ Ω√¿€*/
+.member_Icon{
+	position:absolute;
+	width: 20px;
+	height: 20px;
+	left:25%;
+	top:220px;
+}
+.member_box_line{
+	position:absolute;
+	left:25%;
+	right:25%;
+	width:780px;
+	height:510px;
+	top:260px;
+	border: 1px solid #c0c0c0;
+}
+.member_manu{
+	position:absolute;
+	left:2%;
+	top:40px;
+	height:25%;
+	width:10%;
+}
+
+.member_Box1{
+	position:absolute;
+	top:39px;
+	left:17%;
+	right:10%;
+	width: 400px;
+	height:20px;
+}
+.member_Box2{
+	position:absolute;
+	top:115px;
+	left:17%;
+	right:10%;
+	width: 400px;
+	height:20px;
+}
+.member_Box3{
+	position:absolute;
+	top:190px;
+	left:17%;
+	right:10%;
+	width: 400px;
+	height:20px;
+}
+.member_Box4{
+	position:absolute;
+	top:267px;
+	left:17%;
+	right:10%;
+	width: 180px;
+	height:20px;
+}
+.member_Box5-1{
+	position:absolute;
+	top:342px;
+	left:17%;
+	right:10%;
+	width: 100px;
+	height:30px;
+}
+.member_Box5-2{
+	position:absolute;
+	top:309px;
+	left:31%;
+	right:10%;
+}
+.member_Box5-3{
+	position:absolute;
+	top:344px;
+	left:34%;
+	right:10%;
+	width: 100px;
+	height:20px;
+}
+.member_Box5-4{
+	position:absolute;
+	top:309px;
+	left:48%;
+	right:10%;
+}
+.member_Box5-5{
+	position:absolute;
+	top:344px;
+	left:51%;
+	right:10%;
+	width: 100px;
+	height:20px;
+}
+.member_Box6-1{
+	position:absolute;
+	top:421px;
+	left:17%;
+	right:10%;
+	width: 200px;
+	height:20px;
+}
+.member_Box6-2{
+	position:absolute;
+	top:394px;
+	left:44%;
+	right:10%;
+	width: 200px;
+	height:20px;
+	position:absolute;
+}
+.member_Box6-3{
+	position:absolute;
+	top:421px;
+	left:47%;
+	right:10%;
+	width: 200px;
+	height:20px;
+}
+.member_overlap{
+	position:absolute;
+	top:37px;
+	left:72%;
+	right:10%;
+	width: 115px;
+	height: 27px;
+}
+.member_join{
+	position:absolute;
+	top:460px;
+	left:36%;
+	width: 100px;
+	height:30px;
+}
+.member_reset{
+	position:absolute;
+	top:460px;
+	left:50%;
+	width: 120px;
+	height:30px;
+}
+/*BK_membership ∆‰¿Ã¡ˆ css ¡§∫∏ ø©±‚±Ó¡ˆ*/
+
+<!--µµº≠∞¸ø° ¥Î«ÿ -->
+.LibraryInformation {
+	position: absolute;
+	top: 280px;
+	left: 30%;
+	width: 30px;
+	height: 300px;
+}
+.Information{
+	position: absolute;
+	top: 240px;
+	left: 10%;
+	width: 30%;
+	height: 40px;
+}
+.java {
+	position: absolute;
+	top: 190px;
+	left: 8%;
+	width: 60%;
+	height: 65%;
+}
+.textletter{
+	position: absolute;
+	top: 500px;
+	left: 40%;
+	width: 60%;
+	height: 60%;
+}
+<!--µµº≠∞¸ø° ¥Î«ÿ ≥°-->
+
+<!--ªÛºº¡§∫∏ √• ≥ªøÎπ∞-->
+.DetailedInformation {
+	position: absolute;
+	left: 2%;
+	top: 40px;
+	height: 330px;
+	width: 200px;
+}
+.Detail {
+	position: absolute;
+	top: 220px; left : 16%;
+	height: 30px;
+	width: 230px;
+	left: 16%;
+}
+.Detailbox {
+	position: absolute;
+	left: 16%;
+	top: 250px;
+	height: 440px;
+	width: 1100px;
+	border: 1px solid;
+}
+.Thumbnail{
+	position: absolute;
+	left: 85.3%;
+	top: 1px;
+	height: 400px;
+	width: 1100px;
+}
+.BackwardBT{
+	position: absolute;
+	left: 41%;
+	top: 700px;
+}
+.RentBT{
+	position: absolute;
+	left: 46%;
+	top: 700px;
+}
+.ModifyBT{
+	position: absolute;
+	left: 51%;
+	top: 700px;
+}
+.Searchbox{
+	position: absolute;
+	left: 1%;
+	top: 50px;
+}
+.text0{
+	position: absolute;
+	left: 0.5%;
+	top: 3px;
+	height: 40px;
+	width: 700px; 
+}
+.text1{
+	position: absolute;
+	left: 22%;
+	top: 56px;
+	height: 20px;
+	width: 650px;
+}
+.text2{
+	position: absolute;
+	left: 22%;
+	top: 114px;
+	height: 20px;
+	width: 650px;
+}
+.text3{
+	position: absolute;
+	left: 22%;
+	top: 172px;
+	height: 20px;
+	width: 650px;
+}
+.text4{
+	position: absolute;
+	left: 22%;
+	top: 230px;
+	height: 20px;
+	width: 650px;
+}
+.text5{
+	position: absolute;
+	left: 22%;
+	top: 288px;
+	height: 20px;
+	width: 650px;
+}
+.text6{
+	position: absolute;
+	left: 22%;
+	top: 346px;
+	height: 20px;
+	width: 650px;
+}
+.text7{
+	position: absolute;
+	left: 22%;
+	top: 404px;
+	height: 20px;
+	width: 650px;
+}
+
+
 .NeedsLoginIMG{
 	position : absolute;
 	left:25%;	
 	top:300px;
+	
 }
-/*Î°úÍ∑∏Ïù∏ÌéòÏù¥ÏßÄ Ïä§ÌÉÄÏùº ÎÅù*/
 
+.LoginArea{
+	position : relative;
+	left:37%;
+	top:30px;
+}

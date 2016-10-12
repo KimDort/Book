@@ -1,17 +1,14 @@
-
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../css/style.css"
-	media="screen">
+<link rel="stylesheet" type="text/css" href="..//css/style.css" media="screen">
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>3 Team Book Management - Main Page</title>
 </head>
 <body>
-		<!-- 화면 기본 아이콘 -->
+	<!-- 화면 기본 아이콘 -->
 	<header class="menu_box">
 		<div class="logo">
 			<a href="BK_Main.jsp"><img alt="" src="..//resources/BK_Logo.png" class="logo_img"></a>
@@ -51,6 +48,22 @@
 		<input type="image" src="..//resources/BannerIMG.png" height="96" width=1800><!-- 화면 아래 로고 -->
 	</div>
 <!-- 화면 기본 아이콘 여기까지-->
+	<div class="Mypage">
+			<img src="..//resources/MypageIMG.png">
+	</div>
+	<div class="Mypagebutton">
+		<div class="Mypage_box">
+			<input type="image" src="..//resources/MyPage_ModifyBT.png"> <!-- 회원정보관리 버튼 -->
+		</div>
+		<div class="Mypage_box">
+			<input type="image" src="..//resources/MyPage_RentInformationBT.png"> <!-- 대여/반납정보 버튼 -->
+		</div>
+		<div class="Mypage_box">
+			<input type="image"src="..//resources/MyPage_MemberDropoutBT.png"> <!-- 회원탈퇴 -->
+		</div>
+		
+	</div>
+	
 
 </body>
 </html>
