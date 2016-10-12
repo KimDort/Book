@@ -5,7 +5,7 @@
 
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../../css/style.css"
+<link rel="stylesheet" type="text/css" href="../css/style.css"
 	media="screen">
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>3 Team Book Management - Main Page</title>
@@ -14,17 +14,17 @@
 	<!-- 화면 기본 아이콘 -->
 	<header class="menu_box">
 	<div class="logo">
-		<a href="../BK_Main.jsp"><img alt="" src="../../resources/MainLogoBT.png"
+		<a href="BK_Main.jsp"><img alt="" src="../resources/MainLogoBT.png"
 			class="logo_img"></a>
 	</div>
 	<div class="login_bar">
 		<div class="login">
-			<a href="../member/BK_Login.jsp">로그인</a>·<a href="../member/BK_membership.jsp">회원가입</a>
+			<a href="../BK_Login.jsp">로그인</a>·<a href="../BK_membership.jsp">회원가입</a>
 		</div>
 	</div>
 	<div class="button_bar">
 		<div class="button_box">
-			<a href=""> <!-- 경로 입력 필요 --><img alt="" src="../../resources/SearchMenuBT.png"
+			<a href=""> <!-- 경로 입력 필요 --><img alt="" src="../resources/SearchMenuBT.png"
 				height="60" width="230">
 			</a>
 		</div>
@@ -34,7 +34,7 @@
 			</a>
 		</div>
 		<div class="button_box">
-			<a href="../BK_About.jsp"> <img alt="" src="../resources/AboutBT.png"
+			<a href=""> <img alt="" src="../resources/AboutBT.png"
 				height="60" width="230">
 			</a>
 		</div>
@@ -107,9 +107,8 @@
 
 </div>
 
-<div class="BannerIMG">
-	<input type="image" src="../resources/BannerIMG.png" width=1600
-		height=96>
+<div class="BottomLogo">
+	<input type="image" src="../resources/BannerIMG.png" width=1800 height=96>
 </div>
 
 </body>
