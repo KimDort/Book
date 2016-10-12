@@ -10,11 +10,11 @@
 <body>
 	<header class="menu_box">
 		<div class="logo">
-			<a href=""><img alt="" src="..//resources/BK_Logo.png" class="logo_img"></a>
+			<a href=""><img alt="" src="..//resources/MainLogoBT.png" ></a>
 		</div>
 		<div class="login_bar">
 			<div class="login">
-			<a href="member/BK_Login.html">login</a>/<a href="member/BK_Join.html">join</a></div>
+			<a href="member/BK_Login.html">로그인</a>·<a href="member/BK_Join.html">회원가입</a></div>
 		</div>
 		<div class="button_bar">
 			<div class="button_box">
@@ -35,7 +35,7 @@
 		</div>
 		<div class="search">
 			<img alt="" src="..//resources/infoTextIMG.png" class="searchTitle">
-			<input type="text" class="serarchText"><input type="button" value="검색">
+			<input type="text" class="searchText"><input type="button" value="검색">
 		</div>
 	</header>
 </body>
