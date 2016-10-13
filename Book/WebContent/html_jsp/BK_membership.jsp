@@ -74,7 +74,7 @@
 		<h1 class="member_Box5-4">-</h1>
 		<input type="text" class="member_Box5-5" maxlength="4"><!-- 핸드폰 뒷자리 -->
 		<input type="text" class="member_Box6-1"><!-- 이메일 앞 -->
-		<h2 class="member_Box6-2">@</h1>
+		<h2 class="member_Box6-2">@</h2>
 		<input type="text" class="member_Box6-3"><!-- 이메일 뒤 -->
 		<input type="image" src="..//resources/JoinConfirmBT.png" class="member_join"><!-- 가입 버튼 -->
 		<input type="image" src="..//resources/UndoAllBT.png" class="member_reset"><!-- 다시입력 버튼 -->

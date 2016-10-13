@@ -53,13 +53,19 @@
 	</div>
 	<div class="Mypagebutton">
 		<div class="Mypage_box">
-			<input type="image" src="..//resources/MyPage_ModifyBT.png"> <!-- 회원정보관리 버튼 -->
+			<a href="BK_MemberInfoModify.jsp">
+			<input type="image" src="..//resources/MyPage_ModifyBT.png">
+			</a> <!-- 회원정보관리 버튼 -->
 		</div>
 		<div class="Mypage_box">
+		<a href=""><!-- 대여정보 페이지 링크 입력 -->
 			<input type="image" src="..//resources/MyPage_RentInformationBT.png"> <!-- 대여/반납정보 버튼 -->
+			</a>
 		</div>
 		<div class="Mypage_box">
+		<a href=""><!-- 회원 탈퇴 페이지 링크 입력 -->
 			<input type="image"src="..//resources/MyPage_MemberDropoutBT.png"> <!-- 회원탈퇴 -->
+			</a>
 		</div>
 		
 	</div>

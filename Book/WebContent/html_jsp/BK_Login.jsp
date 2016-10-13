@@ -52,8 +52,8 @@
 <!-- 화면 기본 아이콘 여기까지-->
 
 	</header>
-	<div class="NeedsLoginIMG">
-		<img src="../resources/NeedsLoginIMG.png">
+
+		<img src="../resources/NeedsLoginIMG.png" style="position:absolute; left:27%; top:240px;">
 		<div class="LoginArea">
 
 			<table>
@@ -87,7 +87,7 @@
 				</tr>
 				<tr>
 					<td align=justify>&nbsp;&nbsp;&nbsp;&nbsp;<font
-						style="font-weight: bold; color: black;" size="3">P W</font>&nbsp;&nbsp;
+						style="font-weight: bold; color: black;" size="3">&nbsp;P W</font>&nbsp;&nbsp;
 						<input type="password" size="30" /></td>
 				</tr>
 				<tr>
@@ -106,7 +106,7 @@
 			</table>
 		</div>
 
-	</div>
+
 
 
 </body>
